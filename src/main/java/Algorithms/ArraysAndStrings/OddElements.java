@@ -1,4 +1,4 @@
-package main.java.Algorithms.ArraysAndStrings.main;
+package main.java.Algorithms.ArraysAndStrings;
 
 import java.util.Arrays;
 import java.util.HashSet;
