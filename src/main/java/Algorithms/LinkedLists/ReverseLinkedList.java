@@ -1,5 +1,7 @@
 package main.java.Algorithms.LinkedLists;
 
+import java.util.Arrays;
+
 /**
  * Created by hungle on 1/21/18.
  */
@@ -19,8 +21,8 @@ public class ReverseLinkedList {
         Node head = new Node(5);
         head.next = new Node(3);
         head.next.next = new Node(1);
-        return;
+        int[] arr = new int[5];
     }
 
-    
+
 }
