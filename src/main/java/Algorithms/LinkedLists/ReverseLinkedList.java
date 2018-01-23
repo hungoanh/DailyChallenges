@@ -21,7 +21,22 @@ public class ReverseLinkedList {
         Node head = new Node(5);
         head.next = new Node(3);
         head.next.next = new Node(1);
-        int[] arr = new int[5];
+        reverseList(head);
+        return;
+    }
+
+    private static Node reverseList(Node head) {
+        // if head.next is null, we have reached the end of the list
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        Node tail = reverseList(head.next);
+        // The
+        head.next.next = head;
+        head.next = null;
+
+        return tail;
     }
 
 
